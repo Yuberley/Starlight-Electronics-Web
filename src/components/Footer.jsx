@@ -18,9 +18,10 @@ export const Footer = () => {
                     <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2022 - Todos los derechos reservados</p>
                     <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
 
-                         <div className="flex flex-col items-center justify-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
+                         
                         <a 
                             href="https://api.whatsapp.com/message/S5CMKVFJ7PDSM1?autoload=1&app_absent=0" 
+                            <div className="flex flex-col items-center justify-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
                             className="text-gray-400 hover:text-gray-500"
                             target="_blank" >
                             <span className="sr-only">Whatsapp</span>
