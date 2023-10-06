@@ -52,6 +52,8 @@ export const Footer = () => {
 
                         <figure className='w-36 border-l ml-6'>
                             <img className='ml-3' src={ avixamember } alt="Avixamember con starlightelectronics" title='Avixamember con starlight electronics' />
+                        </figure>
+                        
                         <figure className='w-36 border-l ml-6'>
                             <img className='ml-3' src={ incontec } alt="incontec con starlightelectronics" title='Incontec con starlight electronics' />
                         </figure>
