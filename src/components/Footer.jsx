@@ -12,7 +12,7 @@ import incontec from '../assets/img/content/incontec.png';
 
 export const Footer = () => {
     return (
-            <footer className="inset-x-0 bottom-0 text-gray-700 bg-white body-font mt-16">
+            <footer className="inset-x-0 bottom-0 text-gray-700 bg-white body-font mt-18">
                 <div className="flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
                     <a href="#" className="text-xl font-black leading-none text-gray-900 select-none logo uppercase"> Starlight Electronics </a>
                     <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2022 - Todos los derechos reservados</p>
@@ -21,12 +21,11 @@ export const Footer = () => {
                          
                         <a 
                             href="https://api.whatsapp.com/message/S5CMKVFJ7PDSM1?autoload=1&app_absent=0" 
-                            <div className="flex flex-col items-center justify-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
                             className="text-gray-400 hover:text-gray-500"
                             target="_blank" >
                             <span className="sr-only">Whatsapp</span>
                             <FaWhatsapp size={30} />
-                                <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
+                               
                         </a>
                         
                         <a 
@@ -57,12 +56,12 @@ export const Footer = () => {
                        
                             
                              <figure className='w-36 border-l ml-6'>
-    <img className='ml-3' src={avixamember} alt="Avixamember con starlightelectronics" title='Avixamember con starlight electronics' style={{ maxWidth: '100%' }} />
-</figure>
-
-<figure className='w-36 border-l ml-6'>
-    <img className='ml-3' src={incontec} alt="Incontec con starlightelectronics" title='Incontec con starlight electronics' style={{ maxWidth: '100%' }} />
-</figure>
+                             <img className='ml-3' src={avixamember} alt="Avixamember con starlightelectronics" title='Avixamember con starlight electronics' style={{ maxWidth: '100%' }} />
+                             </figure>
+                        
+                        <figure className='w-36 border-l ml-6'>
+                        <img className='ml-3' src={incontec} alt="Incontec con starlightelectronics" title='Incontec con starlight electronics' style={{ maxWidth: '100%' }} />
+                        </figure>
         
 
                     </span>
