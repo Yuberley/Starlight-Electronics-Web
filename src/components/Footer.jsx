@@ -7,7 +7,8 @@ import {
     FaFacebook,
   } from 'react-icons/fa';
 
-import avixamember from '../assets/img/content/2avixamember.png';
+import avixamember from '../assets/img/content/avixamember.png';
+import 2avixamember from '../assets/img/content/2avixamember.png';
 
 export const Footer = () => {
     return (
@@ -51,7 +52,9 @@ export const Footer = () => {
 
                         <figure className='w-36 border-l ml-6'>
                             <img className='ml-3' src={ avixamember } alt="Avixamember con starlightelectronics" title='Avixamember con starlight electronics' />
-                        </figure>
+                        <figure className='w-36 border-l ml-6'>
+                            <img className='ml-3' src={ 2avixamember } alt="2Avixamember con starlightelectronics" title='2Avixamember con starlight electronics' />
+                        
 
                     </span>
                 </div>
