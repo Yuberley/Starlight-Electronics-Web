@@ -4,6 +4,7 @@ import logo_sle_blue from '../../assets/img/content/logo-sle-white.png'
 import mision from '../../assets/img/gallery/img_49.webp'
 import vision from '../../assets/img/gallery/img_27.webp'
 
+
 export const AboutAs = () => {
     return (
         <>            
