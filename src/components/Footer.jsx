@@ -50,13 +50,23 @@ export const Footer = () => {
                             <FaLinkedin size={30} />
                          </a>
 
-                        <figure className='w-36 border-l ml-6'>
-                            <img className='ml-3' src={ avixamember } alt="Avixamember con starlightelectronics" title='Avixamember con starlight electronics' />
-                        </figure>
+
+                     /* Estilos personalizados para las imágenes en el pie de página */
+.footer-image {
+    display: block; /* Asegura que la imagen sea un bloque para aplicar estilos */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+
                         
                         <figure className='w-36 border-l ml-6'>
-                            <img className='ml-3' src={ incontec } alt="incontec con starlightelectronics" title='Incontec con starlight electronics' />
-                        </figure>
+    <img className='ml-3 footer-image' src={avixamember} alt="Avixamember con starlightelectronics" title='Avixamember con starlight electronics' />
+</figure>
+
+<figure className='w-36 border-l ml-6'>
+    <img className='ml-3 footer-image' src={incontec} alt="Incontec con starlightelectronics" title='Incontec con starlight electronics' />
+</figure>
         
 
                     </span>
