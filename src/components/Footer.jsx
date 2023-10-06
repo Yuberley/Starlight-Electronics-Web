@@ -26,6 +26,7 @@ export const Footer = () => {
                             target="_blank" >
                             <span className="sr-only">Whatsapp</span>
                             <FaWhatsapp size={30} />
+                                <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
                         </a>
                         
                         <a 
