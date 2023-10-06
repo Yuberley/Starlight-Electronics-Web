@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo_sle_blue from '../../assets/img/content/logo-sle-white.png'
+import logo_sle_blue from '../../assets/img/content/1logo-sle-white.png'
 import mision from '../../assets/img/gallery/img_49.webp'
 import vision from '../../assets/img/gallery/img_27.webp'
 
