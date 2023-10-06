@@ -17,7 +17,7 @@ export const Footer = () => {
                     <a href="#" className="text-xl font-black leading-none text-gray-900 select-none logo uppercase"> Starlight Electronics </a>
                     <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2022 - Todos los derechos reservados</p>
                     <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
-
+ <div className="flex flex-col sm:flex-row mt-4 space-x-5">
                          
                         <a 
                             href="https://api.whatsapp.com/message/S5CMKVFJ7PDSM1?autoload=1&app_absent=0" 
