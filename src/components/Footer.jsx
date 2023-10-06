@@ -53,7 +53,7 @@ export const Footer = () => {
                          </a>
 
   
-                       
+                       <div className="flex flex-col sm:flex-row mt-4 space-x-5">
                             
                              <figure className='w-36 border-l ml-6'>
                              <img className='ml-3' src={avixamember} alt="Avixamember con starlightelectronics" title='Avixamember con starlight electronics' style={{ maxWidth: '100%' }} />
@@ -62,7 +62,7 @@ export const Footer = () => {
                         <figure className='w-36 border-l ml-6'>
                         <img className='ml-3' src={incontec} alt="Incontec con starlightelectronics" title='Incontec con starlight electronics' style={{ maxWidth: '100%' }} />
                         </figure>
-        
+         </div>
 
                     </span>
                 </div>
