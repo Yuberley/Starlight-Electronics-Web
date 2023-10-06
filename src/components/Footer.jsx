@@ -6,7 +6,7 @@ import {
   FaFacebook,
 } from 'react-icons/fa';
 
-import avixamember from '../assets/img/content/avixamember.png';
+import avixamember from '../assets/img/content/3avixamember.png';
 import incontec from '../assets/img/content/incontec.png';
 
 export const Footer = () => {
